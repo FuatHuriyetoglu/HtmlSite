@@ -1,0 +1,116 @@
+*{ 
+	margin:0px;
+	padding: 0px; 
+}
+body, html{
+height: 100%;
+}
+nav{
+	position: absolute;
+	;
+	height: 100px;
+	width: 100%;
+	text-align: center;
+	line-height: 140px;
+    z-index: 2
+
+}
+nav a{
+	color: #fff;
+	font-family: 'Inria Serif', serif;
+	text-decoration: none;
+	font-size: 20px;
+	margin-left: 20px;
+   padding: 12px 12px;
+
+}
+.gorsel{
+	height: 100%;
+	
+	background-size: cover;
+	background-attachment: fixed;
+}
+.bant{
+	height: 50%;
+	background-color: 	#FBC02D;
+	opacity: 0,34;
+}
+#gor1{
+	background-image: url(img/1.jpeg);
+}
+#gor2{
+	background-image: url(img/3.jpeg);
+}
+#gor3{
+	background-image: url(img/2.jpg);
+}
+#gor4{
+background-image: url(img/4.jpg); }
+.anaSayfa{
+	position: absolute;
+	float: left;
+}
+.anaYazı{
+	width: 100%;
+	height:100%; 
+	z-index: 1;
+	text-align: center;
+	margin-top: 250px;
+}
+.anaYazı h1{
+ font-family: 'Ibarra Real Nova', serif;
+ font-size: 90px;
+ color: #FFAB00 ;
+
+}
+.anaYazı p{
+
+	color: #fff;
+	font-size: 15px;
+	font-family: 'Inria Serif', serif;
+	margin-bottom: 20px;
+}
+.anaYazı span{
+	color: #fff;
+	padding: 10px 10px;
+	background-color: #FFAB00;
+	font-size: 19px;
+	border: 1px solid #FFAB00;
+	border-radius: 5px;
+	font-family: 'Ibarra Real Nova', serif;
+
+}
+.anaFiltre{
+	width: 100%;
+	height: 100%;
+	background-color: #000;
+	opacity: 0.34;
+	z-index: 0;
+}
+.bant p{
+color: #000;
+	font-size: 19px;
+	font-family: 'Inria Serif', serif;
+	margin-bottom: 20px;
+}
+.btn1 {
+    border: none;
+    color: white;
+    background-color: #FFAB00;
+    padding: 10px 20px;
+    cursor: pointer;
+    border: 2px solid #000000;
+    -moz-border-radius: 16px;
+    -webkit-border-radius: 16px;
+    border-radius: 16px;
+    position: fixed;
+    right: 15px;
+    top:650px;
+    text-decoration: none;
+   
+
+}
+.btn1:hover{
+	background-color: #3F51B5;
+
+}
